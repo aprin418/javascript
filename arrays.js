@@ -81,3 +81,11 @@ for (let i = 0; i < teams.length; i++) {
         console.log("Team " + teamHype + " Rules!");
     };
 };
+
+//for (let i = 0; i < numbers.length; i++) {
+    //let num = numbers[i];
+    //let arr = [];
+    //arr.push(num);
+    //myOther2DArray.push(arr);
+//}
+//console.log(myOther2DArray);
