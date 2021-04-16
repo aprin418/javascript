@@ -1,14 +1,14 @@
 function checkInstagram(username) {
-    // write code and test
+    console.log(`Checking Instagram of ${username}`);
 }
 function makePhoneCall(contact) {
     console.log(`Calling ${contact}`);
 }
 function playSpotify(song) {
-    console.log(`playing ${song} now`);
+    console.log(`playinging ${song}`);
 }
 function checkEmail(emailProvider) {
-    // write code and test
+    console.log(`Checking your ${emailProvider}`);
 }
 function sendEmail(message) {
     console.log(`Sending ${message}`)
@@ -39,6 +39,12 @@ useMobileDevice('iPhone', takePicture, 'portrait');
 console.log('---');
 useMobileDevice('android', makePhoneCall, 'Aaron');
 console.log('---');
-useMobileDevice('Android', playSpotify, 'Bad Medicine');
+useMobileDevice('Android', playSpotify, 'Bad Medicine by Bon Jovi');
 console.log('---');
-useMobileDevice('Iphone', sendEmail, 'Hello!');
+useMobileDevice('iphone', sendEmail, 'Hello!');
+console.log('---');
+useMobileDevice('Android', checkInstagram, 'aprin418');
+console.log('---');
+useMobileDevice('iphone', checkEmail, 'Gmail');
+console.log('---');
+useMobileDevice('iphone', faceTime, 'Shawna');
